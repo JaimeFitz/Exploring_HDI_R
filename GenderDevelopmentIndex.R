@@ -29,6 +29,12 @@ summary(HDI_data)
 
 ########################Preliminary data summary###############
 
+ggplot(data=HDI_data, aes(x=ExpYearsEduMale19, y=ExpYearsEduFem19)) +
+      geom_point()+
+	geom_smooth(method=lm, se=FALSE)
+
+#Plotting female years of education against male years of education
+
 
 
 #######################Basic graphics#########################

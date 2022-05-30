@@ -8,7 +8,7 @@ My first step included cleaning the data and eliminating countries with missing 
 In my analysis of this table, I will seek to answer the following questions:
   1. Who tends to receive more years of education worldwide? Males or females?
   2. Who tends to have a higher gross national income per capita worldwide? Males or females?
-  3. How are years of education and life expectancy correlated? Is this correlation similar for males and females?
+  3. Are years of education and life expectancy correlated? Is this correlation similar for males and females?
   4. Are years of education and gross national income per capita correlated? Is this correlation similar for males and females?
 
 The UN defines the Human Development Index (HDI) as, "A composite index measuring average achievement in three basic dimensions of human development—a long and healthy life, knowledge and a decent standard of living." (UN, 2022). Because life expectancy, gross national income, and mean years of education are used to calculate a country's HDI, it was important for me to carefully refine my investigative questions. For example, if I asked "Do countries with higher HDI's tend to have better education for females?", this would be a circular and redundant question. 

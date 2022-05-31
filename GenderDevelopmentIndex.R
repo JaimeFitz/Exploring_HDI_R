@@ -42,7 +42,7 @@ ggplot(data = HDI_data, aes(x = EstGNIPerCapMale19, y = EstGNIPerCapFem19)) +
 geom_point()+
 geom_smooth(method=lm, se=FALSE, color = "red")+
 labs(title="Comparison of GNI by Gender",
-       x="Estimated GNI \n Per Capita (Females)", y = "Estimated GNI \n Per Capita (Females)")+
+       x="Estimated GNI \n Per Capita (Males)", y = "Estimated GNI \n Per Capita (Females)")+
 theme_classic()
 
 #Plotting estimated GNI for females against estimated GNI for males

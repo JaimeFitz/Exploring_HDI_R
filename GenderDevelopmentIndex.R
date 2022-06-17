@@ -90,20 +90,20 @@ cor.test(HDI_data$ExpYearsEduMale19, HDI_data$ExpYearsEduFem19, method = "pearso
 #Testing the correlation between male expected years of education and female expected years of education
 #cor.test will return the correlation coefficient as well as the p-value (significance)
 
-
 cor.test(HDI_data$EstGNIPerCapMale19, HDI_data$EstGNIPerCapFem19, method = "pearson")
 #Testing the correlation between male estimated GNI per capita and female estimated GNI per capita
 
 cor.test(HDI_data$LifeExpFem19, HDI_data$ExpYearsEduFem19, method = "pearson")
 #Testing the correlation between female life expectancy and expected years of education
 
-cor.test(HDI_data$ExpYearsEduMale19, HDI_data$ExpYearsEduFem19, method = "pearson")
+cor.test(HDI_data$LifeExpMale19, HDI_data$ExpYearsEduMale19, method = "pearson")
+#Testing the correlation between male life expectancy and expected years of education
 
+cor.test(HDI_data$ExpYearsEduMale19, HDI_data$EstGNIPerCapMale19, method = "pearson")
+#Testing the correlation between expected years of education for males and estimated GNI per capita
 
-cor.test(HDI_data$ExpYearsEduMale19, HDI_data$ExpYearsEduFem19, method = "pearson")
-
-
-
+cor.test(HDI_data$ExpYearsEduFem19, HDI_data$EstGNIPerCapFem19, method = "pearson")
+#Testing the correlation between expected years of education for females and estimated GNI per capita
 
 ###########Calculating Correlations###########################
 

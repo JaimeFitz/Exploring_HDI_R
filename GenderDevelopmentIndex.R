@@ -68,7 +68,7 @@ theme_classic()
 ggplot(data=HDI_data, aes(x=ExpYearsEduFem19, y=EstGNIPerCapFem19)) +
       geom_point()+
 	geom_smooth(method=lm, se=FALSE, color = "blue")+
-labs(title= "Comparison of Gross National Income and Life Expectancy (Females)",
+labs(title= "Comparison of Gross National Income and Expected Years of Education (Females)",
        x="Expected Years of Education \n (Females)", y = "Estimated Gross National Income \n (Females)")+
 theme_classic()
 
@@ -77,7 +77,7 @@ theme_classic()
 ggplot(data=HDI_data, aes(x=ExpYearsEduMale19, y= EstGNIPerCapMale19)) +
       geom_point()+
 	geom_smooth(method=lm, se=FALSE, color = "orange")+
-labs(title= "Comparison of Gross National Income and Life Expectancy (Males)",
+labs(title= "Comparison of Gross National Income and Expected Years of Education (Males)",
        x="Expected Years of Education \n (Males)", y = "Estimated Gross National Income \n (Males)")+
 theme_classic()
 

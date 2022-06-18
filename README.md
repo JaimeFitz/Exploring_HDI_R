@@ -15,7 +15,7 @@ The UN defines the Human Development Index (HDI) as, "A composite index measurin
 
 For my first question, "Who tends to receive more years of education worldwide? Males or females?" I used ggplot2 to create a scatterplot with expected years of education for females on the y axis and males on the x. This gives me an idea of the correlation, and with the line of best fit drawn, we can start to glean some insights about the difference in expected years of education between the genders. 
 
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/174414449-70355c49-fd9f-4733-a1dc-e1f93522ac40.jpg"></code>
+<code><img height="400" src="https://user-images.githubusercontent.com/106002818/174416847-03aee634-2d42-41df-b959-03a77f72306a.png"></code>
 
 
 I repeated this process, creating a basic visualization for each question I'm looking to answer. This gives an overview of the data in a way that's easy to understand. 

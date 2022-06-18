@@ -19,3 +19,13 @@ For my first question, "Who tends to receive more years of education worldwide? 
 
 
 I repeated this process, creating a basic visualization for each question I'm looking to answer. This gives an overview of the data in a way that's easy to understand. 
+
+My basic visualizations gave me an idea of what to expect, my next step was to go deeper into the data using correlation testing. I chose to use Pearson's correlation coefficient as my method because 4 of my 6 graphs appear to have a roughly linear relationship between the variables. I may choose to use a different correlation coefficient in the future for the education and gross national income relationships, as these two graphs did not seem to yield a very linear relationship. However, I think the correlation between those variables might just be a weak one and that's why it appears non-linear. I'll explore this more in the future. 
+
+Pearson's correlation coefficient yields data about the strength and direction of a correlation, reported as a value ranging between -1 and 1. A value of 1 would indicate a perfect positive relationship, a linear relationship with a slope of 1. A value of -1 indicates a perfect negative relationship. A value of 0 would indicate no correlation between the variables. 
+
+Based on my graphs, I'm expecting all of my correlation coefficients to be positive. I further hypothesize that the two strongest correlations will be found in the relationships between education by gender and estimated gross national income per capita (the purple and red graphs, respectively). 
+
+I will be using the r function cor.test() for this correlation test, because unlike cor(), it provides both the correlation coefficient and the level of the significance for the relationship. 
+
+<code><img height="400" src="https://user-images.githubusercontent.com/106002818/174414788-e02bc5e8-c04c-4f47-a626-9b859a3ac407.png"></code>

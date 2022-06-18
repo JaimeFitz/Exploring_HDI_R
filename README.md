@@ -28,4 +28,3 @@ Based on my graphs, I'm expecting all of my correlation coefficients to be posit
 
 I will be using the r function cor.test() for this correlation test, because unlike cor(), it provides both the correlation coefficient and the level of the significance for the relationship. 
 
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/174414788-e02bc5e8-c04c-4f47-a626-9b859a3ac407.png"></code>

@@ -15,11 +15,16 @@ The UN defines the Human Development Index (HDI) as, "A composite index measurin
 
 For my first question, "Who tends to receive more years of education worldwide? Males or females?" I used ggplot2 to create a scatterplot with expected years of education for females on the y axis and males on the x. This gives me an idea of the correlation, and with the line of best fit drawn, we can start to glean some insights about the difference in expected years of education between the genders. 
 
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171301063-d5115035-6c5e-4698-99d2-6573150ab168.png"></code>
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171300705-be329d45-fc8a-4190-a598-50b0fbae5898.png"></code>
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171300840-6e22cdc4-0bdb-475b-a3a1-03273e5d2a1f.png"></code>
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171300757-b22442d2-4f64-4eed-bdbb-aa60832382a3.png"></code>
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171300755-d8a6007f-787a-4680-a7bb-ceb37e364919.png"></code>
-<code><img height="400" src="https://user-images.githubusercontent.com/106002818/171300958-d88d7f8e-f575-4d1b-a854-08927e6306d4.png"></code>
+<code><img height="400" src="https://user-images.githubusercontent.com/106002818/174414449-70355c49-fd9f-4733-a1dc-e1f93522ac40.jpg"></code>
+
 
 I repeated this process, creating a basic visualization for each question I'm looking to answer. This gives an overview of the data in a way that's easy to understand. 
+
+My basic visualizations gave me an idea of what to expect, my next step was to go deeper into the data using correlation testing. I chose to use Pearson's correlation coefficient as my method because 4 of my 6 graphs appear to have a roughly linear relationship between the variables. I may choose to use a different correlation coefficient in the future for the education and gross national income relationships, as these two graphs did not seem to yield a very linear relationship. However, I think the correlation between those variables might just be a weak one and that's why it appears non-linear. I'll explore this more in the future. 
+
+Pearson's correlation coefficient yields data about the strength and direction of a correlation, reported as a value ranging between -1 and 1. A value of 1 indicates a perfect positive relationship; a value of -1 indicates a perfect negative relationship. A value of 0 would indicate no correlation between the variables. 
+
+Based on my graphs, I'm expecting all of my correlation coefficients to be positive. I further hypothesize that the two strongest correlations will be found in the relationships between education by gender and estimated gross national income per capita (the purple and red graphs, respectively). 
+
+I will be using the r function cor.test() for this correlation test, because unlike cor(), it provides both the correlation coefficient and the level of the significance for the relationship. 
+
